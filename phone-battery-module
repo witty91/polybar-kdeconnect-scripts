@@ -1,0 +1,9 @@
+[module/phone-battery]
+type = custom/script
+exec = ~/.config/polybar/scripts/phone-battery.sh
+label-font = 1
+label =  phone %output%
+label-padding=2
+intervall = 5
+format-foreground = #ffffff
+format-background = #5a5a5f

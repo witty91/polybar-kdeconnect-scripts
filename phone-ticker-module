@@ -1,0 +1,11 @@
+[module/phone-ticker]
+type = custom/script
+exec = ~/.config/polybar/scripts/phone-ticker.sh
+label-font=1
+;label-maxlen = 15
+click-left = ~/.config/polybar/scripts/phone-reply.sh
+click-right = ~/.config/polybar/scripts/phone-dismiss.sh
+label = %output%
+intervall = 5
+format-foreground = #959595
+format-background = ${colors.background-alt}
